@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav class="container">
+        <div class="main">
+            <div class="logo">
+                <h1>M</h1>
+                <span>Ahmed</span>
+            </div>
+            <ul class="list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="ec">
+            <div class="dec">
+                <span>
+                    <h2>Hey,</h2>
+                    <span> My name is </span>
+                    <h1>Moon Ahmed</h1>
+                </span>
+                <h1>WEB-DEVELOPER</h1>
+
+                <span>I'm a Frontend Web-developer</span>
+                <span>with JS , CSS , HTML </span>
+            </div>
+            <div class="bg-img"><img src="images/picwish.png" alt=""></div>
+        </div>
+    </main>
+
+    <div class="swiper-container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg7.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg8.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg9.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="s-container">
+                        <img src="images/bg10.jpg" alt="">
+                    </div>
+                </div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </div>
+
+
+    <div class="card-container">
+        <div class="card-lap">
+            <div class="card">
+                <div class="brd" id="ht">
+                    <span>HTML</span>
+                </div>
+
+                <div class="brd" id="css">
+                    <span>CSS</span>
+                </div>
+
+                <div class="brd" id="js">
+                    <span>JS</span>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="card-items">
+
+                    <h1>How to Create a UI/UX design website
+                    </h1>
+
+                    <h4>  From your Dashboard, click on the AI Assistant and select Long Form or Short Form Writer.
+                    </h4>
+
+                    <h4>
+
+                        Choose your output language and tone, then complete the prompt.</h4>
+
+                    <h4>
+
+                        Click ‘Generate’. Choose the content that’s best for you.</h4>
+                    <button class="button">Sign up and Start now</button>
+                    <div class="subs">
+                        <input type="text" placeholder="Enter your email">
+                        <button>Subscribe for more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="banner-container">
+        <div class="banner">
+            <img src="images/banner.jpg" alt="Moon Ahmed">
+            <h1>This is My Personal Portfolio website</h1>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            autoplay: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
+</body>
+
+</html>
